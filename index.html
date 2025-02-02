@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SCHNAERO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="images/SCHNAERO_logo_bgremoved.png" height="60" width="250" alt="SCHNAERO Logo" />
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#section1">Home</a></li>
+                <li><a href="#section2">About Us</a></li>
+                <li><a href="#section3">Automobiles</a></li>
+                <li><a href="#section4">Policies</a></li>
+                <li><a href="#section5">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1" class="white-background">
+        <div class="slideshow-container">
+            <button class="nav-button left" onclick="prevImage()">&#60;</button>
+            <img class="slideshow-image" src="images/template_photo_1.webp" alt="Image 1">
+            <img class="slideshow-image" src="images/template_photo_2.webp" alt="Image 2">
+            <img class="slideshow-image" src="images/template_photo_3.webp" alt="Image 3">
+            <img class="slideshow-image" src="images/template_photo_4.webp" alt="Image 4">
+            <button class="nav-button right" onclick="nextImage()">&#62;</button>
+        </div>
+        <div class="slideshow-text">
+            <p>Avail the range of quality and cost-effective Electric Three Wheeler, Electric Scooter etc., and reliable services from the domain of Technology, Management Consulting, Innovation, and Research under the same roof.</p>
+        </div>
+        <div class="button-container">
+            <button class="inquiry-button">🔍 Send Inquiry</button>
+        </div>
+    </section>
+    
+    <section id="section2" class="blue-background">
+        <div class="about-container">
+            <div class="about-image">
+                <img src="images/d0cd322eed2ccddc079d87e0e6a1ccb7.jpg" alt="About Us Image" class="about-image-responsive" />
+            </div>
+            <div class="about-card">
+                <h2>Who We Are</h2>
+                <p>SCHNAERO is committed to revolutionizing the world of electric vehicles by providing quality, cost-effective solutions. Our dedication lies in innovation, management consulting, and cutting-edge research. TAG Automotive is a comprehensive organisation aimed at creating, innovating and delivering futuristic modes of transportation throughout the masses. It aims at providing mobility from a personal platform to a collective platform, innovating at every step to bring forth a world with negligible emissions through these transport systems. The organisation strives to create an environment that is user centric and blends with the nature in the most energy efficient way possible.</p>
+                <button class="read-more-button" onclick="toggleReadMore()">Read More</button>
+                <p class="read-more-content">
+                    Our team of experts continuously strives to redefine the electric automobile industry, focusing on sustainability and eco-friendliness. By integrating the latest technologies, we aim to provide our customers with unmatched experiences and value for their investment. We at TAG believe in offering our customers revolutionary design in terms of aesthetics, ergonomics, safety and functionalities in our vehicles. Conceptual design illuminates a new road to distinctive design elements and hence, we strive to pitch our thinking to the farthest point possible in order to break the conventions in automotive design. Technological advancements go in tandem with conceptualisation and engineering to surpass the current trends, so that our vehicles provide you with luxury and peace of mind, transforming your world into a mesmerising experience.
+                </p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="section3">
+        <h2>Automobile Collections:</h2>
+        <div class="automobile-container">
+            <div class="automobile-item">
+                <img src="images\Battery Operated scooters.jpg" alt="Car 1" class="automobile-image" />
+                <div class="info-box">
+                    <p>Battery Operated scooters</p>
+                </div>
+            </div>
+            <div class="automobile-item">
+                <img src="images\Electric scooters.jpg" alt="Car 2" class="automobile-image" />
+                <div class="info-box">
+                    <p>Electric scooters</p>
+                </div>
+            </div>
+            <div class="automobile-item">
+                <img src="images\Three wheeler .jpg" alt="Car 3" class="automobile-image" />
+                <div class="info-box">
+                    <p>Three wheeler</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="section4" class="blue-background">
+        <h1>Policies</h1>
+        <div class="policies-container">
+            <div class="policy-item">
+                <h2>Clean Technology</h2>
+                <p>Our commitment to clean technology is at the core of everything we do. We invest in sustainable innovations and cutting-edge solutions that reduce environmental impact. <a href="link_to_clean_technology" target="_blank">Learn more</a></p>
+            </div>
+            <div class="policy-item">
+                <h2>Sustainability</h2>
+                <p>We strive to create a balance between economic, environmental, and social needs. Our sustainability practices include reducing waste, improving energy efficiency, and promoting eco-friendly products. <a href="link_to_sustainability" target="_blank">Learn more</a></p>
+            </div>
+            <div class="policy-item">
+                <h2>HR & IR</h2>
+                <p>We are dedicated to maintaining a fair, inclusive, and respectful workplace. Our HR & IR policies promote employee well-being, development, and strong labor relations. <a href="link_to_hr_ir" target="_blank">Learn more</a></p>
+            </div>
+            <div class="policy-item">
+                <h2>Investor Relationships</h2>
+                <p>We believe in transparent communication with our investors. Our policies are designed to ensure that we build and maintain trust through regular updates and clear financial reporting. <a href="link_to_investor_relations" target="_blank">Learn more</a></p>
+            </div>
+        </div>
+    </section>
+    
+
+    <section id="section5" class="white-background">
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-section about">
+                    <h2><i class="fas fa-car"></i> SCHNAERO</h2>
+                    <p>We're here to provide you with the best vehicles and a seamless rental experience. Stay connected for updates, special offers, and more. Drive with confidence!</p>
+                    <div class="socials">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section services">
+                    <h3>Our Services</h3>
+                    <ul>
+                        <li><a href="#">Home</a></li>
+                        <li><a href="#">About</a></li>
+                        <li><a href="#">Rental Deals</a></li>
+                        <li><a href="#">Why Choose Us</a></li>
+                        <li><a href="#">Testimonials</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section vehicles">
+                    <h3>Vehicle Model</h3>
+                    <ul>
+                        <li><a href="#">Toyota Corolla</a></li>
+                        <li><a href="#">Toyota Noah</a></li>
+                        <li><a href="#">Toyota Allion</a></li>
+                        <li><a href="#">Toyota Premio</a></li>
+                        <li><a href="#">Mitsubishi Pajero</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section contact">
+                    <h3>Contact</h3>
+                    <ul>
+                        <li><i class="fas fa-phone"></i> +91 5243567158</li>
+                        <li><i class="fas fa-location-dot"></i> Nagpur, India</li>
+                        <li><i class="fas fa-envelope"></i> info@schnaero</li>
+                    </ul>
+                </div>
+            </div>
+
+<!-- Updated contact section for white background and form enhancements -->
+<section id="contact" style="background-color: white; padding: 50px 0; color: #333;">
+    <div class="container">
+        <div class="section-title">
+            <h2 style="color: #014f86;">Contact Us</h2>
+            <p style="color: #777;">Feel free to reach out to us for any inquiries or assistance.</p>
+        </div>
+        <form action="#" method="POST" style="max-width: 600px; margin: 0 auto;">
+            <div class="form-group">
+                <label for="name" style="color: #333;">Your Name</label>
+                <input type="text" id="name" name="name" class="form-control" placeholder="Enter your name" required>
+            </div>
+            <div class="form-group">
+                <label for="email" style="color: #333;">Your Email</label>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Enter your email" required>
+            </div>
+            <div class="form-group">
+                <label for="phone" style="color: #333;">Phone Number</label>
+                <input type="tel" id="phone" name="phone" class="form-control" placeholder="Enter your phone number" required>
+            </div>
+            <div class="form-group">
+                <label for="requirement" style="color: #333;">Please Tell Us Your Requirement</label>
+                <textarea id="requirement" name="requirement" class="form-control" rows="5" placeholder="Describe your requirement" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary" style="background-color: #ff6f61; border: none;">Submit</button>
+        </form>
+    </div>
+</section>
+
+            
+
+            <div class="footer-bottom">
+                <p>Copyright &copy; 2024 Web Design Mastery. All rights reserved.</p>
+            </div>
+        </footer>
+    </section>
+
+    <script src="script.js"></script>
+    <script>
+        let currentIndex = 0;
+        const images = document.querySelectorAll('.slideshow-image');
+        const totalImages = images.length;
+
+        function updateSlideshow() {
+            images.forEach((img, index) => {
+                img.style.display = index === currentIndex ? 'block' : 'none';
+            });
+        }
+
+        function nextImage() {
+            currentIndex = (currentIndex + 1) % totalImages;
+            updateSlideshow();
+        }
+
+        function prevImage() {
+            currentIndex = (currentIndex - 1 + totalImages) % totalImages;
+            updateSlideshow();
+        }
+
+        updateSlideshow();
+
+        function toggleReadMore() {
+            const content = document.querySelector('.read-more-content');
+            const button = document.querySelector('.read-more-button');
+            if (content.style.display === 'none' || content.style.display === '') {
+                content.style.display = 'block';
+                button.textContent = 'Read Less';
+            } else {
+                content.style.display = 'none';
+                button.textContent = 'Read More';
+            }
+        }
+    </script>
+</body>
+</html>
